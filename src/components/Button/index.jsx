@@ -1,9 +1,9 @@
 import "./styles.css";
 
-export default function Button({children, addClassName}){
+export default function Button({children, className}){
 
     return(
-        <button className={addClassName + " border-solid border-2 py-4 px-10"}>
+        <button className={className}>
             {children}
         </button>
     );

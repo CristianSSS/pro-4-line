@@ -7,7 +7,7 @@ export default function Home(){
             <div className="w-full h-screen flex justify-center items-center">
                 {/* <Button className="border-solid border-2 py-4 px-10" >Jugar</Button> */}
 
-                <Link className="border-solid border-2 py-4 px-10" to={"/play"}>Jugar</Link>
+                <Link className="border-solid border-2 py-4 px-10" to={"/config"}>Jugar</Link>
             </div>
 
        </div>

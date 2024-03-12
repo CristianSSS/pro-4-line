@@ -1,14 +1,7 @@
-import GameConfigForm from "../../components/GameConfigForm";
 
-export default function GameScreen(){
+export default function GameScreen({formData}){
+    console.log(formData)
     return(
-        <div className="container mx-auto">
-
-            <div className="w-full h-screen flex justify-center items-center">
-                <GameConfigForm />
-            </div>
-
-            
-        </div>
+      <></>
     )
 }
